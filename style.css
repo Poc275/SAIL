@@ -27,18 +27,8 @@ a:hover {
     margin-top: 50px;
 }
 
-#sail-logo {
-    position: relative;
-    top: -20px;
-    right: -10px;
-}
-
 #title-row {
     margin-bottom: 50px;
-}
-
-#title-row h1 {
-    padding-left: 50px;
 }
 
 .side-info {
@@ -52,4 +42,16 @@ a:hover {
 .side-info .sector {
     color: #999999;
     font-size: smaller;
+}
+
+@media only screen and (min-width: 768px) {
+    #sail-logo {
+        position: relative;
+        top: -20px;
+        right: -10px;
+    }
+
+    #title-row h1 {
+        padding-left: 50px;
+    }
 }
