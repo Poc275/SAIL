@@ -1,0 +1,55 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1,
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+h3 {
+    color: #F2244D;
+}
+
+a {
+    color: #F2244D;
+}
+
+a:hover {
+    background-color: #F2244D;
+    color: #fff;
+}
+
+#title-bar {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 50px;
+}
+
+#sail-logo {
+    position: relative;
+    top: -20px;
+    right: -10px;
+}
+
+#title-row {
+    margin-bottom: 50px;
+}
+
+#title-row h1 {
+    padding-left: 50px;
+}
+
+.side-info {
+    font-style: italic;
+}
+
+.side-info p {
+    margin-bottom: 0;
+}
+
+.side-info .sector {
+    color: #999999;
+    font-size: smaller;
+}
