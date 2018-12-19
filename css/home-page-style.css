@@ -1,35 +1,12 @@
-/* base styles */
-@font-face {
-    font-family: "Circular Std Bold";
-    src: url("fonts/CircularStd-Bold.ttf") format("opentype");
-}
-
-@font-face {
-    font-family: "Circular Std Book";
-    src: url("fonts/CircularStd-Book.ttf") format("opentype");
-}
-
-body {
-    font-family: "Circular Std Book", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", sans-serif;
-    color: #343739;
-}
-
-h1, h2, h3, h4 {
-    font-family: "Circular Std Bold", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", sans-serif;
-}
-
-#info-section-emojis {
-    font-size: xx-large;
-}
-
 /* bootstrap overrides */
 /* change the primary button colour to align with our colour scheme */
-.btn-outline-primary {
+#cta-button {
     color: #3786B0;
     border-color: #3786B0;
 }
 
-.btn-outline-primary:hover {
+#cta-button:hover {
+    color: #fff;
     background-color: #3786B0;
     border-color: #3786B0;
 }
@@ -48,7 +25,7 @@ h1, h2, h3, h4 {
 #header-container {
     height: 60vh;
     background: 
-        url('images/sail-landing-image.png') no-repeat bottom right 150px,
+        url('../images/sail-landing-image.png') no-repeat bottom right 150px,
         linear-gradient(to bottom, #3786B0, #9DE2E9);
 }
 
@@ -76,16 +53,20 @@ h1, h2, h3, h4 {
 /* sea background image below header container */
 #sea-bg {
     height: 250px;
-    background: url("images/sea-effect.png") no-repeat top right 150px;
+    background: url("../images/sea-effect.png") no-repeat top right 150px;
 }
 
 /* info section */
 #info-section {
-    background: url("images/info-bg-image.png") no-repeat top left;
+    background: url("../images/info-bg-image.png") no-repeat top left;
 }
 
 #sail-info {
     padding: 200px 0;
+}
+
+#info-section-emojis {
+    font-size: xx-large;
 }
 
 /* faq section */
@@ -102,12 +83,12 @@ h1, h2, h3, h4 {
 #add-to-sail-section {
     margin: 5em 0;
     padding: 2em 0;
-    background: url("images/add-to-sail-section-bg.png") repeat-x;
+    background: url("../images/add-to-sail-section-bg.png") repeat-x;
 }
 
 /* footer section */
 #footer {
-    background: url("images/footer.png") no-repeat top left 100px;
+    background: url("../images/footer.png") no-repeat top left 100px;
     margin-bottom: 1em;
 }
 

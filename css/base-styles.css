@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Circular Std Bold";
+    src: url("../fonts/CircularStd-Bold.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Circular Std Book";
+    src: url("../fonts/CircularStd-Book.ttf") format("opentype");
+}
+
+body {
+    font-family: "Circular Std Book", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", sans-serif;
+    color: #343739;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Circular Std Bold", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", sans-serif;
+}
